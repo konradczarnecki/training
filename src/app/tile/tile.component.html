@@ -1,0 +1,9 @@
+<div id="wrapper">
+  <h2>{{name}}</h2>
+  <h5>{{price}}</h5>
+
+  <input type="radio" [name]="'ratings' + name"
+         *ngFor="let i of [1, 2, 3]"
+         [value]="i"
+         [(ngModel)]="rating"/>
+</div>

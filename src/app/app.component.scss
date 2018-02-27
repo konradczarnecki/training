@@ -1,0 +1,7 @@
+@import "common";
+
+#grid {
+  @include size(70vw, 80vh);
+  @include absolute-center;
+  @include grid-center(null, repeat(auto-fill, minmax(250px, 1fr)));
+}

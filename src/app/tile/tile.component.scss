@@ -1,0 +1,8 @@
+@import "../common";
+
+#wrapper {
+  @include size(260px, 120px);
+  @include border;
+  border-radius: 3px;
+
+}

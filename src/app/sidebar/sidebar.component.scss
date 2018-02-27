@@ -1,0 +1,11 @@
+@import "../common";
+
+#wrapper {
+  @include size(120px, 100%);
+  @include absolute(0, null, 0, 0);
+  @include grid-stretch;
+  grid-auto-rows: 40px;
+  background: rgba(176, 178, 194, 0.3);
+}
+
+
